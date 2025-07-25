@@ -1,0 +1,1 @@
+model_config = GRUAudioConfig(num_conditioning_params=1, embedding_dim=8, hidden_size=48, num_layers=3, dropout=0.1)\ndata_config = AudioDatasetConfig(data_dir='data/MuMeRNN/data/synthodd16', sequence_length=512, parameter_specs={'mp': (52, 76)})\n
