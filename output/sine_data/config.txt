@@ -1,0 +1,1 @@
+model_config = GRUAudioConfig(num_conditioning_params=1, hidden_size=40, num_layers=4, dropout=0.1)\ndata_config = AudioDatasetConfig(data_dir='data/sine_data', sequence_length=256, parameter_specs={'oct': (0, 3)}, add_noise=False, snr_db=10.0)\n
